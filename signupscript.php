@@ -20,14 +20,14 @@
  $desc=$_POST["desc"];
  $type=$_POST["type"];
  
- // $query="SELECT uid FROM tbuser";
- // $result = mysql_query($query,$conn);
+  //$query="SELECT uid FROM tbuser";
+  //$result = mysql_query($query,$conn);
 
-// while($row = mysql_fetch_array($result))
-  // {
-  // $uidvar= $row['uid'] ;
-  // }
-  // $uidvar=$uidvar+1;
+ //while($row = mysql_fetch_array($result))
+   //{
+	//$uidvar= $row['uid'] ;
+   //}
+   //$uidvar=$uidvar+1;
  
  $query="INSERT INTO tbuser VALUES('$Fname','$Lname','$contact','$collg','$board','$email','$passwd','$address','$country','$desc','$type')";
  if (mysqli_query($query,$conn))
@@ -36,7 +36,7 @@
  }
  else
  {
-  die(mysqli_error());
+  die(mysqli_error($conn));
  }
 mysqli_close($conn);
 echo "</div>";

@@ -165,7 +165,6 @@
              <td class="style3">
                  User type:</td>
              <td>
-                 <input value="student" type="radio" name="type" />Student.&nbsp;
                  <input value="teacher" type="radio" name="type"/>Teacher.</td>
          </tr>
          <tr>

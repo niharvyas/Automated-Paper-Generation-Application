@@ -39,7 +39,7 @@
 	else
 	{
 	 echo "<li> <a href='logout.php'>LOGOUT</a></li>";
-	 echo "<li> <a href='addpaperuser1.php'>CREATE PAPER</a></li>";
+	 echo "<li> <a href='addpaperuser.php'>CREATE PAPER</a></li>";
 
      echo "<li> <a href='contact.php'>CONTACT</a></li>";
      echo "<li> Welcome ".$_SESSION['currentuser']."  </li> ";
