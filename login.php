@@ -41,7 +41,7 @@
                     
                 </tr>
                 <tr>
-                    <td colspan="2"><div align="center"><a href="contactadmin.php">Forgot Password?</a>&nbsp;|&nbsp;<a href="Signup.php">New User?</a></div></td>
+                    <td colspan="2"><div align="center"><a href="contactadmin.php">Forgot Password?</a>&nbsp;</div></td>
                     
                 </tr>
             </table>

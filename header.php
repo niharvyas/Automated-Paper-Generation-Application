@@ -31,7 +31,7 @@
 	{
     if($_SESSION['currentuser']=="admin@exam.com")
 	{
-    echo "<li> <a href='adminoptions.php'>ADMIN OPTIONS</a></li>";
+    echo "<li> <a href='selecttype.php'>Select Type	</a></li>";
     echo "<li> <a href='logout.php'>LOGOUT</a></li>";
     echo "<li> <a href='contact.php'>CONTACT</a></li>";
     echo "<li> Welcome ".$_SESSION['currentuser']." </li> ";
@@ -39,7 +39,7 @@
 	else
 	{
 	 echo "<li> <a href='logout.php'>LOGOUT</a></li>";
-	 echo "<li> <a href='addpaperuser.php'>CREATE PAPER</a></li>";
+	 //echo "<li> <a href='addpaperuser.php'>CREATE PAPER</a></li>";
 
      echo "<li> <a href='contact.php'>CONTACT</a></li>";
      echo "<li> Welcome ".$_SESSION['currentuser']."  </li> ";
