@@ -1,4 +1,3 @@
-# ad-2018-project-paper-setting
-ad-2018-project-paper-setting created by GitHub Classroom
+#Automated Paper Generation Applicatiion
 
 This is A paper setting project in PHP
